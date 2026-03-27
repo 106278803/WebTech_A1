@@ -17,6 +17,17 @@ footer {
     border-radius: 5px;
 }
 
+nav {
+    background-color: #98ff98;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+a {
+    padding: 10px;
+}
+
 .logo {
     width: 100px;
     height: 100px;
@@ -37,17 +48,6 @@ footer {
     border-color: black;
     border-style: solid;
     border-radius: 5px;
-}
-
-nav {
-    background-color: #98ff98;
-    border-color: black;
-    border-style: solid;
-    border-radius: 5px;
-}
-
-a {
-    padding: 10px;
 }
 
 .navcontainer {
