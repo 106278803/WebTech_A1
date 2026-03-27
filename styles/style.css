@@ -64,3 +64,18 @@ a {
     border-style: solid;
     border-radius: 5px;
 }
+
+.footercontainer {
+    display: flex;
+    background-color: #98ff98;
+    border-radius: 5px;
+}
+
+.footercontainer div {
+    display: fill;
+    background-color: orange;
+    margin: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
