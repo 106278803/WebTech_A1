@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: beige;
+    align-items: center;
 }
 
 main {
@@ -8,6 +9,7 @@ main {
     border-color: black;
     border-style: solid;
     border-radius: 5px;
+    align-items: center;
 }
 
 footer {
@@ -28,6 +30,9 @@ a {
     padding: 10px;
 }
 
+h1 {
+    padding: 10px;
+}
 .logo {
     width: 100px;
     height: 100px;
@@ -39,21 +44,30 @@ a {
     border-color: black;
     border-style: solid;
     border-radius: 5px;
+    align-items: center;
 }
 
 .container div {
     display: fill;
-    background-color: blueviolet;
+    background-color: orange;
     margin: 10px;
     border-color: black;
     border-style: solid;
     border-radius: 5px;
+    align-items: center;
 }
 
 .navcontainer {
+    width: 100%;
     display: flex;
     background-color: #98ff98;
     border-radius: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navcontainer div {
@@ -63,6 +77,7 @@ a {
     border-color: black;
     border-style: solid;
     border-radius: 5px;
+    align-items: center;
 }
 
 .footercontainer {
