@@ -1,0 +1,16 @@
+.title-bar {
+    background-color: #99ff99;
+    color: #B40000;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+
+html, body{
+    background-color: beige;
+}
+
+h2{
+    color: #B40000;
+    font-family: monospace;
+}
