@@ -52,3 +52,15 @@ h2{
     font-weight: bold;
     font-size: medium;
 }
+
+.next-step{
+    background: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.next-step:hover{
+    text-decoration: wavy underline;
+    color: purple;
+}
