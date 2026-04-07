@@ -7,10 +7,37 @@
         <meta name="keywords" content="healthcare, digital, technology">
         <meta name="author" content="Niranjan Nair">
         <title> About us</title>
-        <body>
+    <body>
             <div class="title-bar">
+                <div class="logo-box">
+                    <a 
+                        href="index.html"
+                        target="_blank"
+                        title="homepage"
+                        hreflang="en">
+                        
+                        <img src="images/cross.png"
+                        alt="Wellness Logo" 
+                        class="logo"
+                        title="Wellness Logo"
+                        loading="lazy">
+
+                    </a>
+                    
+                
+                </div>
+                
                 <h1>About Us</h1>
+                
+                
             </div>
+            <div class="navcontainer center">
+                    <div><a href="index.html">Home</a></div>
+                    <div><a href="about.html">About Us</a></div>
+                    <div><a href="jobs.html">Jobs</a></div>
+                    <div><a href="apply.html">Apply</a></div>
+                </div>
+            <br><br>
             <div class="button-wrap">
                 <button
                 class="skip-link"
@@ -26,7 +53,7 @@
                 <div class="hero">
                     <span class="badge"><h2>Welcome to Wellness Website</h2> </span>
                     <p>Build soothing digital health tools with us</p>
-                    <p class="lede">
+                    <p id="lede">
                             We are a digital health team creating accessible, low-stress experiences for
                             the community, those who cannot afford healthcare and clinicians. We are looking for
                             people who are passionate about providing next gen health tech, and care about 
@@ -43,6 +70,26 @@
                         better health.
                     </p>
                 </section>
+                <section aria-labelledby="values">
+                    <h2 id = "values">Our Values</h2>
+                    <ul class="values-list">
+                        <li><strong>Empathy:</strong> We prioritize understanding and compassion in all our interactions, ensuring that our products and services truly meet the needs of our users.</li>
+                        <li><strong>Collaboration:</strong> We believe in the power of teamwork and open communication, fostering a culture where diverse perspectives are valued and contribute to our success.</li>
+                        <li><strong>Innovation:</strong> We are committed to continuous learning and improvement, embracing new ideas and technologies to create cutting-edge solutions for healthcare.</li>
+                        <li><strong>Inclusivity:</strong> We strive to create an environment where everyone feels welcome and valued, promoting diversity and accessibility in all aspects of our work.</li>
+                    </ul>
+                </section>
+                <section aria-labelledby="culture">
+                    <h2 id = "culture">Our Culture</h2>
+                    <p>
+                        At Wellness, we foster a culture of creativity, collaboration and continuous learning. We believe in creating a supportive and inclusive environment where everyone can thrive and contribute to our mission of improving healthcare for all.
+                    </p>
+                </section>
+                <section aria-labelledby="Vision">
+                    <h2 id = "vision">Our Vision</h2>
+                    <p>
+                        We envision a future where healthcare is accessible, personalized and empowering for everyone. We strive to create innovative digital health solutions that enhance the well-being of individuals and communities worldwide, and pave the way for the next generation of the health industry.
+                    </p>
 
 
 
@@ -82,8 +129,59 @@
                     </ul>
                 </section>
 
-                <section aria-labelledby="contributers"></section>
+                <section class="testimonial-section" aria-labelledby="contributors">
+                <div class="section-head">
+                    <p class="eyebrow">Testimonials</p>
+                    <h2 id="contributors">From our Clients</h2>
+                    <p class="subtext">One story, shared in two languages.</p>
+                </div>
+
+                    <blockquote class="bilingual-quote">
+                       <div class="rating-wrapper">
+                            <div class="star-rating" aria-label="5 out of 5 stars">
+                                <span class="filled">&#9733;</span>
+                                <span class="filled">&#9733;</span>
+                                <span class="filled">&#9733;</span>
+                                <span class="filled">&#9733;</span>
+                                <span class="filled">&#9733;</span>
+                            </div>
+                       </div>
+                      
+                       <div class = "quote-coulumns">
+                        <div class="quote-panel english" lang="en">
+                            <h3>English</h3>
+                            <div class="slider-window">
+                                <div class="slider-track">
+                                    <span>Working with Wellness has been a game-changer for our healthcare experience.</span>
+                                    <br><br>
+                                    <span>Their team is incredibly responsive and truly cares about making a difference</span>
+                                    <br><br>
+                                    <span>in patients' lives</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "quote-panel malayalam" lang="ml">
+                            <h3>Malayalam</h3>
+                            <div class = "slider-window">
+                                <div class = "slider-track">
+                                    <span>വെൽനസുമായി പ്രവർത്തിക്കുന്നത് ഞങ്ങളുടെ ആരോഗ്യ സംരക്ഷണ അനുഭവത്തിൽ ഒരു വഴിത്തിരിവാണ്.</span>
+                                    <br><br>
+                                    <span>അവരുടെ ടീം അവിശ്വസനീയമാംവിധം പ്രതികരിക്കുന്നവരും രോഗികളുടെ ജീവിതത്തിൽ</span>
+                                    <br><br>
+                                    <span>ഒരു മാറ്റമുണ്ടാക്കുന്നതിൽ ശരിക്കും ശ്രദ്ധാലുക്കളുമാണ്.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                       <footer>Jane Doe - Patient</footer>
+                        
+
+
+                    </blockquote>
+                </section>
             </main>
+           
             <section aria-labelledby="next-steps">
                 <h2 id="next-steps">Next Steps</h2>
                 <p>
@@ -91,8 +189,16 @@
                 </p>
                 <p>
                     
-                    <br><br>
+                    <br>
                     Decided where you want to join?<a href="apply.html" class="next-step"> Apply Here!</a>
+                </p>
+            </section>
+            <section aria-labelledby="closing">
+                <p>
+                    <marquee id="closing-marquee" behavior="scroll" direction="left" scrollamount="10">
+                        <span>Wellness at Your Fingertips</span>
+                        <br>
+                    </marquee>
                 </p>
             </section>
         </body>
