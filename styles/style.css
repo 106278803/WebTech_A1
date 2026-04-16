@@ -34,6 +34,26 @@ a {
 h1 {
     padding: 10px;
 }
+
+div {
+
+}
+
+.SolBor {
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    border-style: solid;
+    border-color: brown;
+}
+
 .logo {
     width: 100px;
     height: 100px;
