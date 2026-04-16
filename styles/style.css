@@ -35,8 +35,8 @@ h1 {
     padding: 10px;
 }
 
-div {
-
+table, th, td {
+    border-style: solid;
 }
 
 .SolBor {
