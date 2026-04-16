@@ -10,7 +10,8 @@ main {
     border-style: solid;
     border-radius: 5px;
     align-items: center;
-}
+    display: grid;
+}  
 
 footer {
     background-color: #98ff98;
