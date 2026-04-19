@@ -242,6 +242,91 @@ a {
     margin-top: 4px;
 }
 
+.group-info {
+    max-width: 360px;
+    margin: 30px auto;
+    padding: 18px 22px;
+    text-align: center;
+    background-color: white;
+    border-left: 6px solid #99ff99;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.group-label {
+    margin: 0;
+    color: #B40000;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.group-info h3 {
+    margin: 6px 0;
+    font-size: 1.5rem;
+    color: #1f2937;
+}
+
+.group-time {
+    margin: 0;
+    color: #444;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+.members-list {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.member-card {
+    background-color: white;
+    border-left: 6px solid #99ff99;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12 );
+}
+
+.member-card dt {
+    margin-bottom: 10px;
+}
+
+.member-card dd {
+    margin: 8px 0 0;
+    line-height: 1.5;
+    color: #1f2937;
+}
+
+.member-name {
+    display: block;
+    color: #B40000;
+    font-size: 1.1rem;
+}
+
+.member-quote {
+    padding-top: 12px;
+    border-top: 1px solid rgba(76, 175, 80, 0.25);
+    font-style: italic;
+}
+
+.member-quote span {
+    color: limegreen;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.member-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(76, 175, 80, 0.25);
+}
+
+
 #closing-marquee {
     font-family: cursive;
     font-size: 1.5em;
@@ -253,3 +338,8 @@ a {
     font-size: medium;
 }
 
+@media(max-width: 700px) {
+    .members-list {
+        grid-template-columns: 1fr;
+    }
+}
