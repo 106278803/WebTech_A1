@@ -1,1 +1,73 @@
+/*
+filename: Stephanie Hammet
+author: Stephanie Hammet
+created: 16/04/2026
+last modified: 19/04/2026
+description: apply.html
+*/
 
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+fieldset {
+    width: 40%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+/* 2. Style the white container */
+.form-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+form {
+  text-align: left; /* Keeps labels aligned to the left */
+}
+
+input, select, fieldset {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Crucial: keeps padding from breaking width */
+}
+
+/* Style that Gender fieldset specifically */
+fieldset {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+/* 1. Stop radio buttons from stretching to 100% width */
+input[type="radio"] {
+  width: auto;
+  margin-right: 10px; /* Space between the dot and the word */
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px; /* Space between the dot and the word */
+  cursor: pointer;
+}
+
+legend {
+  padding: 0 10px;
+}

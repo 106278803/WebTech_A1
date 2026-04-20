@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="styles/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="description" content="Jobapplicationform">
     <meta name="keywords" content="">
@@ -8,27 +9,26 @@
     <title>Job Application Form</title>
 </head>
 <body>
+<div class="form-container">
    <h1>Job Application Form</h1> 
    <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
-    <fieldset>
-        <legend></legend>
-        
-        <label for="JobReferenceNumber">Job Reference Number</label>
+    <fieldset>        
+        <label for="JobReferenceNumber">Job Reference Number</label><br>
         <input type="text" id="JobReferenceNumber" name="JobReferenceNumber"
-        pattern="{5}" required> 
+        pattern="[a-zA-Z0-9]{5}" required> 
         <br><br>
 
-        <label for="FirstName">First Name</label>
+        <label for="FirstName">First Name</label><br>
         <input type="text" id="FirstName" name="FirstName"
-        pattern="{0,20}" required> 
+        pattern="[A-Za-z\s]{1,20}" required> 
         <br><br>
 
-        <label for="LastName">Last Name</label>
+        <label for="LastName">Last Name</label><br>
         <input type="text" id="LastName" name="LastName" 
-        pattern="{0,20}" required>
+        pattern="[A-Za-z\s]{1,20}" required>
         <br><br>
 
-        <label for="date">Date of birth</label>
+        <label for="date">Date of birth</label><br>
         <input type="date" name="date" id="date" required>
         <br><br>
 
@@ -52,17 +52,17 @@
 
         <br><br>
 
-        <label for="StreetAddress">Street Address</label>
+        <label for="StreetAddress">Street Address</label><br>
         <input type="text" id="StreetAddress" name="StreetAddress" 
-        pattern="{0,40}" required>
+        pattern="[A-Za-z\s\-]{1,40}" required>
         <br><br>
 
-        <label for="Suburb/Town">Suburb/Town</label>
+        <label for="Suburb/Town">Suburb/Town</label><br>
         <input type="text" id="Suburb/Town" name="Suburb/Town" 
-        pattern="{0,40}" required>
+        pattern="[A-Za-z\s\-]{1,40}" required>
         <br><br>
 
-        <label for="State">State</label>
+        <label for="State">State</label><br>
         <select id="State" name="State">
             <option value="Select any one"> Please Select</option>
             <option value="VIC">VIC</option>
@@ -76,24 +76,24 @@
         </select>
         <br><br>
 
-        <label for="Postcode">Postcode</label>
+        <label for="Postcode">Postcode</label><br>
         <input type="text" id="Postcode" name="Postcode"
-        pattern="{4}" required>
+        pattern="\d{4}" required>
         <br><br>
 
-        <label for="email">Email</label>
+        <label for="email">Email</label><br>
         <input type="email" id="email" name="email" required>
         <br><br>
 
-        <label for="PhoneNumber">Phone Number</label>
+        <label for="PhoneNumber">Phone Number</label><br>
         <input type="text" id="PhoneNumber" name="PhoneNumber"
-        pattern="{8-12}" required>
+        pattern="\d{8,12}" required>
         <br><br>
 
         <label for="Skills">Skill list</label><br>
-        <input type="checkbox" name="Project Management"> Project Management
-        <input type="checkbox" name="Digital Marketing"> Digital Marketing
-        <input type="checkbox" name="Data Management"> Data Management
+        <input type="checkbox" name="Project Management"> Project Management <br>
+        <input type="checkbox" name="Digital Marketing"> Digital Marketing <br>
+        <input type="checkbox" name="Data Management"> Data Management <br>
         <input type="checkbox" name="Communication Skills"> Communication Skills
         <br><br>
 
@@ -103,6 +103,6 @@
     </fieldset>
      <br><br>
      <input type="submit" value="Apply">
-     <input type="reset" value="Reset Form">
    </form>
+</div>
 </body>
