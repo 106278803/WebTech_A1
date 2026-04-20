@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Job vacancies for Website Wellness">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     
     <title>Jobs</title>
 
@@ -13,38 +13,34 @@
     <body>
 
 <header>
-  <div class="titlebox">
+        <div class="container center">
+            <div><img src="styles/cross.png" alt="Our logo" id="logo"></div>
+            <div>   
+                <h1>
+                    Welcome to Website Wellness! 
+                </h1>
+            </div> 
+        </div>
+        <br>
 
-    <div class="logo-box">
-      <img src="cross.webp" alt="logo">
-    </div>
-
-    <div class="title-text-box">
-      <h1>Website Wellness Jobs</h1>
-    </div>
-
-  </div>
-</header>
-
-    <nav>
-    <ul>
-    <li><a href="#">Home Page</a></li>
-    <li><a href="#">About Page</a></li>
-    <li><a href="#">Jobs Page</a></li>
-    <li><a href="#">Apply Page</a></li>
-    </ul>
-
-        <!-- unfinished search box -->
-    <input type="text" placeholder="Search jobs...">
-    </nav>
+        <nav>
+            <div class="navcontainer center">
+                <div><a href="index.html"> Home Page</a></div>
+                <div><a href="about.html"> About Page</a></div>
+                <div><a href="jobs.html"> Jobs Page</a></div>
+                <div><a href="apply.html"> Apply Page</a></div>
+                <div><form><input type="text" placeholder="Search jobs..."><button>Search</button></form></div>
+            </div>
+        </nav>
+    </header>
 
     <main>
 
        <!-- aside part -->
 
     <aside>
-    <h2>Why work with us?</h2>
-    <p>Flexible hours, supportive team culture and growth opportunities within Website Wellness.</p>
+      <h2>Why work with us?</h2>
+      <p>Flexible hours, supportive team culture and growth opportunities within Website Wellness.</p>
     </aside>
 
 
@@ -135,9 +131,11 @@
   <!-- links -->
 
     <footer>
-    <a href="https://github.com/106278803/WebTech_A1">GitHub</a>
-    <a href="https://webtechthree.atlassian.net/jira/software/projects/WTA/boards/69">Jira</a>
-    <a href="mailto:test@email.com">Email</a>
+        <div class="footercontainer">
+            <div><a href="https://github.com/106278803/WebTech_A1" target="_blank">GitHub Link</a></div>
+            <div><a href="https://webtechthree.atlassian.net/jira/software/projects/WTA/summary?atlOrigin=eyJpIjoiMjNmNjIyY2NjZDc1NDRlZDhhMTFiNjBiYzk4MWRmNGYiLCJwIjoiaiJ9" target="_blank">Jira Board</a></div>
+            <div><a href="mailto:106278803@student.swin.edu.au">Email</a></div>
+        </div>
     </footer>
 
     </body>
