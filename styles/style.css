@@ -58,7 +58,7 @@ h1 {
 }
 
 table, th, td {
-    border-style: solid;
+    border: solid black 1px ;
 }
 
 section {
