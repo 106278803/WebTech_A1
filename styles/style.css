@@ -12,14 +12,22 @@ main {
     border-style: solid;
     border-radius: 5px;
     align-items: center;
-    display: grid;
-    grid-template-columns: 49% 49%;
+    
     column-gap: 2%;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-right: 10px;
     padding-left: 10px;
     row-gap: 2%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 49% 49%;
+}
+
+.center {
+    justify-content: center;
 }
 
 footer {
