@@ -36,6 +36,14 @@ footer {
     height: 5%;
     padding: .5%;
 }
+aside {
+    float: right;
+    background-color: #98ff98;
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 3px;
+    max-width: 300px;
+}
 
 nav {
     background-color: #98ff98;
