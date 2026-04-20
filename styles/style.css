@@ -18,14 +18,13 @@ main {
     padding-right: 10px;
     padding-left: 10px;
     row-gap: 2%;
-}  
-
-footer {
-    background-color: #98ff98;
-    border-color: black;
-    border-style: solid;
-    border-radius: 5px;
 }
+
+.bgimage {
+    background-image: url(water.jpeg);
+}
+
+
 
 nav {
     background-color: #98ff98;
@@ -36,6 +35,11 @@ nav {
 
 a {
     padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: beige;
 }
 
 h1 {
@@ -44,6 +48,17 @@ h1 {
 
 table, th, td {
     border-style: solid;
+}
+
+section {
+    display: fill;
+    background-color: orange;
+    padding: 1%;
+    margin: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    align-items: center;
 }
 
 .SolBor {
@@ -100,6 +115,13 @@ table, th, td {
     align-items: center;
 }
 
+footer {
+    background-color: #98ff98;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+
 .footercontainer {
     display: flex;
     background-color: #98ff98;
@@ -113,4 +135,8 @@ table, th, td {
     border-color: black;
     border-style: solid;
     border-radius: 5px;
+}
+
+.nogap {
+    padding: 0;
 }
