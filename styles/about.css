@@ -1,0 +1,371 @@
+:root {
+    --card: rgba(255, 255, 255, 0.78);
+    --text-main: #1f2937;
+    --text-muted: #6b7280;
+    --line-soft: rgba(76, 175, 80, 0.22);
+    --accent: #99ff99;
+    --accent-soft: #6ee7b7;
+    --gold: #f4b400;
+    --card-shadow: 0 10px 30px rgba(16, 24, 40, 0.08);
+    --card-radius: 18px;
+    --slide-height: 88px;
+    --slide-duration: 16s;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    align-items: center;
+}
+
+h2 {
+    color: #B40000;
+}
+
+a {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 8px ;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+
+}
+
+th  {
+    background: #333;
+    color: white;
+}
+
+
+
+.title-bar {
+    background-color: #99ff99;
+    color: #B40000;
+    padding: 20px;
+    align-items: center;
+    font-size: 1.75em;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.logo-box {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: block;
+}
+
+.title-bar h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #B40000;
+    line-height: 1;
+}
+
+.container {
+    display: flex;
+    background-color: #98ff98;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.container div {
+    display: fill;
+    background-color: orange;
+    margin: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.navcontainer {
+    width: 100%;
+    display: flex;
+    background-color: #98ff98;
+    border-radius: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navcontainer div {
+    display: fill;
+    background-color: orange;
+    margin: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.team-list {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.button-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.skip-link {
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    border: 2px solid black;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+.skip-link:hover {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: purple;
+}
+
+.type {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.next-step {
+    background: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.next-step:hover {
+    text-decoration: wavy underline;
+    color: purple;
+}
+
+.Return {
+    font-size: 1em;
+    text-decoration: none;
+    background: none;
+    color: black;
+}
+
+
+
+.testimonial-section {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.section-head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.eyebrow {
+    margin: 0 0 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.78rem;
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.section-head h2 {
+    margin: 0;
+}
+
+.subtext {
+    margin: 8px 0 0;
+    color: var(--text-muted);
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.group-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 24px;
+    text-align: center;
+}
+
+.group-section h2 {
+    margin-bottom: 24px;
+    color: limegreen;
+    font-size: 2rem;
+}
+
+.group-card{
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: black;
+    border: 2px solid #99ff99;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12 );
+}
+
+.group-card img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.group-card figcaption {
+    padding: 14px 18px;
+    background-color: #99ff99;
+    color: #1f2937;
+    font-size: 1rem;
+}
+
+.group-card figcaption strong {
+    display: block;
+    font-size: 1rem;
+}
+
+.group-card figcaption span {
+    display: block;
+    margin-top: 4px;
+}
+
+.group-info {
+    max-width: 360px;
+    margin: 30px auto;
+    padding: 18px 22px;
+    text-align: center;
+    background-color: white;
+    border-left: 6px solid #99ff99;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.group-label {
+    margin: 0;
+    color: #B40000;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.group-info h3 {
+    margin: 6px 0;
+    font-size: 1.5rem;
+    color: #1f2937;
+}
+
+.group-time {
+    margin: 0;
+    color: #444;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+.members-list {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.member-card {
+    background-color: white;
+    border-left: 6px solid #99ff99;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12 );
+}
+
+.member-card dt {
+    margin-bottom: 10px;
+}
+
+.member-card dd {
+    margin: 8px 0 0;
+    line-height: 1.5;
+    color: #1f2937;
+}
+
+.member-name {
+    display: block;
+    color: #B40000;
+    font-size: 1.1rem;
+}
+
+.member-quote {
+    padding-top: 12px;
+    border-top: 1px solid rgba(76, 175, 80, 0.25);
+    font-style: italic;
+}
+
+.member-quote span {
+    color: limegreen;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.member-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(76, 175, 80, 0.25);
+}
+
+
+
+#closing-marquee {
+    font-family: cursive;
+    font-size: 1.5em;
+    color: limegreen;
+}
+
+#info-team {
+    font-weight: bold;
+    font-size: medium;
+}
+
+@media(max-width: 700px) {
+    .members-list {
+        grid-template-columns: 1fr;
+    }
+}
