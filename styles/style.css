@@ -33,7 +33,6 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: left;
-    height: 5%;
     padding: .5%;
 }
 aside {
@@ -146,6 +145,7 @@ img {
 }
 
 .footercontainer {
+    width: 100%;
     display: flex;
     background-color: #98ff98;
     border-radius: 5px;
@@ -159,7 +159,7 @@ img {
     border-color: black;
     border-style: solid;
     border-radius: 5px;
-    
+    align-items: center;
 }
 
 .grid {
@@ -169,6 +169,10 @@ img {
 
 .center {
     justify-content: center;
+}
+
+.left {
+    justify-content: left;
 }
 
 /*
